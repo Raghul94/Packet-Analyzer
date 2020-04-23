@@ -1,2 +1,2 @@
 # Packet-Analyzer
-Program that sniffs and analyzes Ethernet Packets
+Program that sniffs and analyzes Ethernet Frames
