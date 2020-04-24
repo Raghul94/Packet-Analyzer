@@ -29,7 +29,7 @@ int main(int argc, char ** argv)
     if(pcap_handle == NULL){
         printf("Error while creating pcap handle\n");
         exit(-1);
-    
+    }
     pcap_loop(pcap_handle,no_of_packets,pcap_callback,(void *)packet);//Function that "sniffs" packets
     fclose(fp);
     return 0;
