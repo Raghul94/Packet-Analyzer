@@ -6,5 +6,6 @@ void pcap_callback (unsigned char * arg, const struct pcap_pkthdr *pkthdr, const
     if(ntohs(eptr->ether_type) == ETHERTYPE_IP)
         handle_connection(packet);
     count++;//Number of Packets Processed
+    //printf("%d\n",count);
 
 }
